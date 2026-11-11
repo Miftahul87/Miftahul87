@@ -1,4 +1,4 @@
-<h1 align="center">Md Miftahulhoda Khan</h1>
+<h1 align="center">Md Miftahul hoda Khan</h1>
 
 <p align="center">
   AI evaluation &nbsp;·&nbsp; task and verifier authoring &nbsp;·&nbsp; backend engineering
