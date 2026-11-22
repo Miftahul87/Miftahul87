@@ -1,27 +1,7 @@
 <h1 align="center">Md Miftahul Hoda Khan </h1>
 
-<p align="center">
-  AI evaluation &nbsp;·&nbsp; task and verifier authoring &nbsp;·&nbsp; backend engineering
-</p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com//anishraja04/main/assets/typewriter-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anishraja04//main/assets/typewriter-light.svg" />
-    <img src="assets/typewriter-light.svg" width="567" alt="I make agents prove it." />
-  </picture>
-</p>
 
-<p align="center">
-  I turn domain problems into executable benchmark tasks: the environment, the<br/>
-  reference solution and the scorer, across data engineering, STEM and CFD.
-</p>
-
-<p align="center">
-  <a href="https://github.com/BasedHardware/omi/pulls?q=is%3Apr+author%3Aanishraja04"><img src="https://img.shields.io/badge/omi_CLI-11_pull_requests-0B6477?style=for-the-badge&logo=github&logoColor=white" height="26" alt="omi pull requests" /></a>&nbsp;
-  <a href="https://github.com/search?q=is%3Apr+author%3Aanishraja04&type=pullrequests"><img src="https://img.shields.io/badge/Open_source-PRs-24292F?style=for-the-badge&logo=git&logoColor=white" height="26" alt="Open-source pull requests" /></a>&nbsp;
-  <a href="https://anishd.com"><img src="https://img.shields.io/badge/-18A05F?style=for-the-badge&logo=firefox&logoColor=white" height="26" alt="Portfolio" /></a>
-</p>
 
 ---
 
