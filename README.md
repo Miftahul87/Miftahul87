@@ -106,42 +106,6 @@ engine, a Docker environment, and a scorer running 16 hidden input corpora again
 
 ---
 
-## Live activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anishraja04/anishraja04/main/assets/activity-card-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anishraja04/anishraja04/main/assets/activity-card-light.svg" />
-    <img src="assets/activity-card-light.svg" width="620" alt="Open-source contribution summary" />
-  </picture>
-</p>
-
-<!-- activity:start -->
-
-**12 pull requests** to repositories I do not own · 8 merged · 2 open
-
-**[BasedHardware/omi](https://github.com/BasedHardware/omi)**
-
-- [#22618 fix: accept line-wrapped base64 when saving a screenshot](https://github.com/BasedHardware/omi/pull/22618) `MERGED`
-- [#22617 fix: keep browser login working when the dev-keys API answers oddly](https://github.com/BasedHardware/omi/pull/22617) `MERGED`
-- [#22610 fix: report a refused config overwrite as an error, not an unexpected one](https://github.com/BasedHardware/omi/pull/22610) `MERGED`
-- [#22609 fix: stop a non-JSON key response crashing omi auth login](https://github.com/BasedHardware/omi/pull/22609) `MERGED`
-- [#22010 harden: enforce the conversation length bounds the CLI already declares](https://github.com/BasedHardware/omi/pull/22010) `MERGED`
-- [#22009 fix: record an unreadable config instead of raising out of load()](https://github.com/BasedHardware/omi/pull/22009) `MERGED`
-- [#22008 fix: stop reporting an unknown rate-limit policy as its own budget](https://github.com/BasedHardware/omi/pull/22008) `MERGED`
-- [#22007 fix: classify IPv4-mapped addresses in the webhook target check](https://github.com/BasedHardware/omi/pull/22007) `MERGED`
-- [#13202 python-cli: add memory create-batch from UTF-8 JSON file](https://github.com/BasedHardware/omi/pull/13202) `OPEN`
-- [#13192 python-cli : file option to omi memory create](https://github.com/BasedHardware/omi/pull/13192) `OPEN`
-
-**[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)**
-
-- [#4747 fix: resolve XAML codebehind independently of directory order](https://github.com/Graphify-Labs/graphify/pull/4747) `CLOSED`
-
-**[harbor-framework/terminal-bench](https://github.com/harbor-framework/terminal-bench)**
-
-- [#1908 Add legacy-ledger-migration task: Python 2.7 batch to Python 3 byte-exact port](https://github.com/harbor-framework/terminal-bench/pull/1908) `CLOSED`
-
-<sub>Updated automatically from the GitHub API. Self-authored pull requests are excluded.</sub>
 
 <!-- activity:end -->
 
@@ -153,26 +117,6 @@ engine, a Docker environment, and a scorer running 16 hidden input corpora again
 real bugs. A fix is only accepted once the full test suite passes. **11 of 11** incidents resolved,
 against **0 of 11** for a single-prompt baseline. The gate is the point: the agent does not get to
 declare its own success.
-
-**[team-task-manager](https://github.com//team-task-manager)** - KaamSathi. Django REST,
-React and PostgreSQL with JWT auth and role-based access. Live on Railway.
-
-**[ai_resume_generator](https://github.com//ai_resume_generator)** - Spring Boot REST API,
-React front end, pluggable LLM backend.
-
-**[mermail-expense-tracker](https://github.com//mermail-expense-tracker)** - an MCP skill
-turning receipt emails into an expense ledger. Treats every email as untrusted input.
-
-**[cloud-native-devops](https://github.com//cloud-native-devops)** - Terraform for an AWS VPC
-and EC2, a Dockerised app behind Nginx, GitHub Actions deploying on every push.
-
-**[api-etl-pipeline](https://github.com//api-etl-pipeline)** - pulls records from external
-REST APIs, cleans the JSON, loads it into PostgreSQL. FastAPI.
-
-<details>
-<summary><strong>Smaller repositories</strong></summary>
-
-</details>
 
 ---
 
