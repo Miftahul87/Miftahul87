@@ -184,5 +184,9 @@ engine, a Docker environment, and a scorer running 16 hidden input corpora again
 Kubernetes · CUDA and GPU kernel profiling · Lean 4 for certificate-based verification · distributed
 data processing at scale
 
----
- Noida Institute of Engineering and Technology, 2026
+## Find me
+
+[LinkedIn](https://linkedin.com/in/md-miftahul-hoda-khan-9621b1249) · [GitHub](https://github.com/Miftahul87) · [mdmiftahulhodakhan@gmail.com](mailto:mdmiftahulhodakhan@gmail.com)
+
+**B.Tech Noida Institute of Engineering and Technology, Greater Noida, 2026**
+ 
