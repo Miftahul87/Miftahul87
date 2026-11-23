@@ -77,40 +77,7 @@ verifier rather than a hard problem. So the first job after building is to attac
   Handshake is mostly this: reading trajectories and telling those three apart.
 
 The part that matters is not the problem statement. It is the environment that runs reproducibly, the
-reference solution, and a scorer strict enough that a plausible-looking wrong answer still fails.
-
----
-
-## Open source: found by reading the code
-
-My contributions to [**BasedHardware/omi**](https://github.com/BasedHardware/omi), the Python CLI for
-the Omi wearable, are all the same shape: a defect nobody had reported, found by reading the code,
-fixed in one narrow diff, and shipped with the regression test that fails without it. The live list
-below is generated from the GitHub API, so it is current rather than something I remembered to update.
-
-Four of them, to show what that means in practice:
-
-- An IPv4-mapped address slipped past the webhook delivery check, so `omi app webhook verify` printed
-  **pass** for a URL the backend silently drops. The rule was written for one spelling of an address
-  and `::ffff:100.64.0.1` is another.
-- A 429 reported the rate-limit policy as its own budget, `dev:ask (dev:ask)`, because the lookup
-  defaulted to its own key. The table held 3 of the 16 policies the backend actually defines, so this
-  fired on most real rate limits.
-- An unreadable config file crashed **every** command, `omi version` included, and left the guard
-  that protects it disarmed. The function documented the opposite behaviour; the file open just sat
-  outside the `try`.
-- `b64decode(validate=True)` rejects newlines, so a line-wrapped screenshot payload, which is what
-  every MIME encoder produces, was refused as corrupt data.
-
-> A maintainer on #13192: *"clean, narrow change with genuinely good test coverage."*
-
-**Terminal-Bench task: legacy ledger migration.**
-[A task I authored](https://github.com/harbor-framework/terminal-bench/pull/1908): a Python 2.7 batch
-ledger system ported to Python 3 **byte-exactly**. BAI, CSV and fixed-width ingest, a reconciliation
-engine, a Docker environment, and a scorer running 16 hidden input corpora against golden outputs.
-276 files.
-
----
+reference solution, and a scorer strict enough that a plausible-looking wrong answer still fails.-
 
 
 <!-- activity:end -->
